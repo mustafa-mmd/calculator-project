@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>calculator project</title>
+    
+    <link rel="stylesheet" href="index.css" />
+    
+</head>
+<body>
+  <h1> WELCOME TO MY CALCULATOR PROJECT:</h1>
+  <div class="wraper">
+    <div class="calc">
+      <div>
+        <input type="text" id="display" readonly>
+      </div>
+<div class="row1">
+  <input type="button" value="7"onclick="clickFunc('7')">
+  <input type="button" value="8" onclick="clickFunc('8')">
+  <input type="button"   value="9" onclick="clickFunc('9')">
+  <input type="button"   class="operator" value="/" onclick="clickFunc('/')">
+</div>
+
+<div class="row2">
+  <input type="button"  value="4" onclick="clickFunc('4')" >
+  <input type="button"  value="5" onclick="clickFunc('5')">
+  <input type="button"  value="6" onclick="clickFunc('6')">
+  <input type="button"  class="operator" value="*" onclick="clickFunc('*')">
+</div>
+
+<div class="row3">
+  <input type="button"   value="1" onclick="clickFunc('1')">
+  <input type="button"   value="2" onclick="clickFunc('2')">
+  <input type="button"  value="3" onclick="clickFunc('3')">
+  <input type="button"  class="operator" value="-" onclick="clickFunc('-')">
+</div>
+<div class="row4">
+  <input type="button"  value="0" onclick="clickFunc('0')">
+  <input type="button"  value="." onclick="clickFunc('.')">
+  <input type="button"  class="operator" value="+" onclick="clickFunc('+')">
+  <input type="button"  class="operator" value="=" onclick="calcFunc('=')">
+  <input type="button"  class="operator" value="C" onclick="cleardisFunc('C')">
+</div>
+</div>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
+    
+    
+    
+        
+
+
+
